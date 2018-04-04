@@ -1,0 +1,34 @@
+.newsBg img{
+    width:100%;
+    height:360px;
+}
+
+.news{
+    width: 1366px;
+    margin:0 auto;
+    padding-top:40px;
+}
+.title{
+    text-align: center;
+    font-size:36px;
+    color:#373737;
+}
+.title2{
+    font-size:16px;
+    color:#373737;
+    padding-bottom:16px;
+}
+.date{
+    color:#373737;
+    font-size:14px;
+    text-align: right;
+    padding: 28px 300px 10px 0;
+}
+.newsContent{
+    margin-bottom:26px;
+}
+.newsContent p{
+    color:#373737;
+    font-size:16px;
+    line-height: 38px;
+}

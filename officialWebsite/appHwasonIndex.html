@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华晟移动端</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0，maximum-scale=1.0,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/mobileIndex.css">
+    <script src="js/appBase.js"> </script>
+</head>
+<body>
+<!--头部开始-->
+        <header class="pc-header">
+            <div class="clearfix">
+                <img src="mobileImg/logo_pc.png" alt="logo" class="fl header-logo">
+                <a href="./mobilePages/more.html" class="fr header-more">
+                    <img src="mobileImg/revealMore.png" alt="more" >
+                </a>
+            </div>
+        </header>
+<!--banner开始-->
+<section class="banner">
+    <ul>
+        <li class="bgContent">
+            <img src="./mobileImg/04banner.png" alt="" style="width: 100%;height :8.7rem;">
+        </li>
+        <li class="bgContent">
+            <img src="./mobileImg/01banner.png" alt="" style="width: 100%;height :8.7rem;">
+        </li>
+        <li class="bgContent">
+            <img src="./mobileImg/02banner.png" alt="" style="width: 100%;height :8.7rem;">
+        </li>
+        <li class="bgContent">
+            <img src="./mobileImg/03banner.png" alt="" style="width: 100%;height :8.7rem;">
+        </li>
+        <li class="bgContent">
+            <img src="./mobileImg/04banner.png" alt="" style="width: 100%;height :8.7rem;">
+        </li>
+        <li class="bgContent">
+            <img src="./mobileImg/01banner.png" alt="" style="width: 100%;height :8.7rem;">
+        </li>
+    </ul>
+    <ol>
+        <li class="active">0</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+</section>
+<!--company content-->
+<section class="company-content">
+    <div class="company-title">南京华晟医学科技有限公司</div>
+    <div>
+        <p>华晟医学是国内领先的专业临床检验与健康体检服务公司， 公司旗下涵盖临床检验、健康体检、冷链物流、检验试剂研发等多个板块！ 华晟凭借多年在独立医学实验室领域积累的优势，专注研发适合中国人群的分子健康检验产品， 通过引进国际先进的医学检验技术、服务理念、海内外高端学科人才和自主创新，构建起核心技术体系， 目前可为临床与科研提供包含病理检验、
+            基因诊断、生化检验、免疫检验、微生物检验、PCR 扩增检测等在内的 1300余项检测项目！</p>
+        <p>华晟医学通过对企业的客户、员工关系管理所需提供增值服务的核心价值进行深度挖掘， 结合预防医学、功能医学、转化医学、临床医学，对健康管理的理念、方法，采用基因检测、 分子生物检测、质谱检测、蛋白检测等世界最前沿的医学技术，并结合中国人群在肿瘤流行病学、 心脑血管疾病高危因素、环境卫生学的特点，研发出适合于企业的客户、员工健康管理的产品及系统， 旨在提升企业与客户、员工的可持续发展的合作共赢关系，
+            提升企业的客户、员工的健康水平，为员工、企业、政府、社会创造价值。</p>
+        <p>华晟，您身边的健康管理运营服务专家。</p>
+    </div>
+</section>
+<!--company about-->
+<section class="company-about">
+    <dl>
+       <dt>
+           南京华晟医学科技有限公司
+       </dt>
+       <dd class="clearfix">
+           <img src="./mobileImg/emil.png" alt="mobile" class="fl">
+           <span class="fl">hwason.@hwason.cn</span>
+       </dd>
+        <dd class="clearfix">
+            <img src="./mobileImg/address.png" alt="address" class="fl">
+            <span class="fl">南京市江宁区胜太西路静淮街18号</span>
+        </dd>
+        <dd class="clearfix">
+            <img src="./mobileImg/phone.png" alt="phone" class="fl">
+            <span class="fl">400-894-5099</span>
+        </dd>
+    </dl>
+</section>
+<!--footer-->
+<footer>
+    <div class="company-name">华晟医学</div>
+    <div class="company-copyright">备案号：沪ICP备09017846号 - 3</div>
+</footer>
+<!--up to top-->
+    <a href="javascript:;" class="up-to-top">
+        <img src="./mobileImg/arrowUp.png" alt="">
+    </a>
+</body>
+<script>
+    window.onload = function(){
+        var toTop = document.querySelector('.up-to-top');
+        var screenw = document.documentElement.clientWidth || document.body.clientWidth;
+        var screenh = document.documentElement.clientHeight || document.body.clientHeight;
+//        toTop.style.left = (screenw - toTop.offsetWidth)/20 +"rem";
+//        toTop.style.top = (screenh - toTop.offsetHeight)/20 + "rem";
+        window.onscroll = function(){
+            var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+            var toTop = document.querySelector('.up-to-top');
+            toTop.style.display = 'block';
+            if(scrolltop == 0){
+                toTop.style.display = 'none';
+            }
+//            toTop.style.top = (screenh - toTop.offsetHeight + scrolltop)/20 +"rem";
+
+        };
+        toTop.onclick = function(){
+            document.documentElement.scrollTop = document.body.scrollTop =0;
+        }
+    };
+    document.addEventListener('DOMContentLoaded',function(){
+        var oBanner = document.querySelector('.banner');
+        var oUl = oBanner.children[0];
+        var aLi = oUl.children;
+        var oOl = oBanner.children[1];
+        var aBtn = oOl.children;
+        oUl.style.width = aLi[0].offsetWidth*aLi.length/rem+'rem';
+        var bOk = false;
+        var iNow = 1;
+        var x = -iNow*aLi[0].offsetWidth/rem;
+        oUl.addEventListener('touchstart',function(ev){
+            if(bOk)return;
+            bOk = true;
+            oUl.style.WebkitTransition = 'none';
+            var oTouch = ev.targetTouches[0];
+            var downX = oTouch.pageX/rem;
+            var disX = downX-x;
+            function fnMove(ev){
+                var oTouch = ev.targetTouches[0];
+                x = oTouch.pageX/rem-disX;
+                oUl.style.WebkitTransform = 'translate3d('+x+'rem,0,0)';
+            }
+            function fnEnd(ev){
+                document.removeEventListener('touchmove',fnMove,false);
+                document.removeEventListener('touchend',fnEnd,false);
+
+                var oTouch = ev.changedTouches[0];
+                var upX = oTouch.pageX/rem;
+
+                if(Math.abs(upX-downX)>100/rem){
+                    //判断iNow要++还是--
+                    if(downX>upX){
+                        iNow++;
+                    }else if(downX<upX){
+                        iNow--;
+                    }
+                }
+                x = -iNow*aLi[0].offsetWidth/rem;
+
+                oUl.style.WebkitTransition = '.5s all ease';
+
+                oUl.style.WebkitTransform = 'translate3d('+x+'rem,0,0)';
+                function tranEnd(){
+                    oUl.removeEventListener('transitionend',tranEnd,false);
+                    if(iNow==0){
+                        iNow = aLi.length-2;
+                        oUl.style.WebkitTransition = 'none';
+                        x = -iNow*aLi[0].offsetWidth/rem;
+                        oUl.style.WebkitTransform = 'translate3d('+x+'rem,0,0)';
+                    }else if(iNow==aLi.length-1){
+                        iNow = 1;
+                        oUl.style.WebkitTransition = 'none';
+                        x = -iNow*aLi[0].offsetWidth/rem;
+                        oUl.style.WebkitTransform = 'translate3d('+x+'rem,0,0)';
+                    }
+
+                    for(var i=0;i<aBtn.length;i++){
+                        aBtn[i].classList.remove('active');
+                    }
+                    aBtn[iNow-1].classList.add('active');
+                    bOk = false;
+                }
+                oUl.addEventListener('transitionend',tranEnd,false);
+            }
+            document.addEventListener('touchmove',fnMove,false);
+            document.addEventListener('touchend',fnEnd,false);
+            ev.preventDefault();
+        },false);
+    },false);
+
+</script>
+</html>

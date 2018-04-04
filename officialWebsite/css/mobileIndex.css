@@ -1,0 +1,116 @@
+/*header*/
+.pc-header{
+    width: 100%;
+    height: 2.3rem;
+    -webkit-box-shadow: 0 3px 8px #c9c8c8;
+    -moz-box-shadow: 0 3px 8px #c9c8c8;
+    box-shadow: 0 3px 8px #c9c8c8;
+    margin-bottom:0.8rem;
+}
+.header-logo{
+    margin:0.4rem 0 0 0.5rem;
+}
+/*banner*/
+.banner{
+    width:18.75rem;
+    height:8.7rem;
+    position:relative;
+    overflow:hidden;
+}
+.banner ul{
+    position:absolute;
+    left:0; top:0;
+    -webkit-transform: translate3d(-18.75rem,0,0);
+}
+.banner ul li{
+    width:18.75rem;
+    height:8.7rem;
+    text-align:center;
+    font-size:2.5rem;
+    float:left;
+}
+.bgContent{
+    position: relative;
+    height:8.7rem;
+}
+.banner ol{
+    position:absolute;
+    left:50%;
+    bottom:0.15rem;
+    width:3rem;
+    margin-left:-1rem;
+}
+.banner ol li{
+    float:left;
+    width:0.2rem;
+    height:0.2rem;
+    margin:0 0.15rem;
+    background:#ccc;
+    border-radius:50%;
+    text-indent:-99999rem;
+}
+.banner ol li.active{
+    background:#18c2ed;
+}
+/*company contetn*/
+.company-content{
+    padding:0 1.5rem 0 1.6rem;
+}
+.company-title{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1.9rem 0 1rem;
+}
+.company-content p{
+    line-height: 1rem;
+    margin-bottom:0.6rem;
+}
+/*company about*/
+.company-about{
+    width:100%;
+    height: 6.2rem;
+    background: #1e1e1e;
+}
+.company-about dl{
+   padding-left:1.6rem;
+}
+.company-about dl dt{
+    font-size:0.7rem;
+    color:#fff;
+    padding-top:0.7rem;
+}
+.company-about dl dd{
+    margin-top:0.5rem;
+}
+.company-about dl dd img{
+    padding-top:0.15rem;
+}
+.company-about dl dd span{
+    color:#fff;
+    padding-left:0.4rem;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 3.3rem;
+    background: #000;
+}
+footer .company-name{
+    color:#fff;
+    text-align: center;
+    padding-top:0.8rem;
+}
+footer .company-copyright{
+    color:#fff;
+    text-align: center;
+    padding-top:0.3rem;
+}
+/*up to top*/
+.up-to-top{
+    display: none;
+    position: fixed;
+    width: 2.3rem;
+    height: 2.3rem;
+    right:0.3rem;
+    bottom:0.3rem;
+}

@@ -1,0 +1,30 @@
+.companyProfileBg{
+    width: 100%;
+    height:565px;
+    background: url(../img/companyProfile/companyProfileBg.png) no-repeat;
+   /* background-size:cover;
+    backgrond-attachment:fixed;
+    background-position:center;
+*/
+}
+.companyProfileBg img{
+    width:100%;
+    height:100%;
+}
+.companyProfileFontContent{
+    width: 1366px;
+    margin:0 auto;
+}
+.companyProfileFontContent h4{
+    margin:38px 0 32px 0;
+    color:#3b3b3b;
+    font-size:20px;
+}
+.paragraph{
+    margin-bottom:56px;
+}
+.paragraph p{
+    line-height: 35px;
+    font-size:14px;
+    color:#3b3b3b;
+}

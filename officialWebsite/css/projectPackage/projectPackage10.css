@@ -1,0 +1,147 @@
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.productTitle{
+    width: 1366px;
+    margin:48px auto 32px;
+    color:#363636;
+    font-size: 40px;
+}
+.produceBanner img{
+    width:100%;
+    height:446px;
+}
+
+/*每个项目都有的slogan*/
+.sloganBox{
+    width: 706px;
+    margin:0 auto;
+}
+.sloganBox .blocked3f3f{
+    width: 8px;
+    height: 24px;
+    margin-right: 18px;
+    background: #ed3f3f;
+}
+.boxed3f3f{
+    width:44%;
+    margin:50px auto 20px;
+}
+.sloganBox .colored3f3f{
+    color:#ed3f3f;
+    font-size: 20px;
+}
+.sloganBox p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+}
+/*每块的标题 中英文标题*/
+.subTitle{
+    padding:20px 0 30px;
+}
+.enSubTitle{
+    color:#ed3f3f;
+    font-size:20px;
+    text-align: center;
+}
+.chSubTitle{
+    color:#363636;
+    font-size:20px;
+    text-align: center;
+}
+.subTitle p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top:20px;
+}
+.advangeDetail{
+    padding-left:20px;
+}
+.advangeDetail li{
+    width: 290px;
+    height: 174px;
+    padding:16px 0 0 16px;
+    margin-left:18px;
+    border:1px solid #35353a;
+}
+.advangeDetail li img{
+    width: 46px;
+    height: 48px;
+    margin-right: 18px;
+}
+
+
+.adDetail {
+    width:85%;
+    margin:0 auto;
+}
+.adDetail{
+    width:77%;
+}
+.adDetail h6{
+    font-size:16px;
+    color:#363636;
+    margin:15px 0 24px;
+}
+.adDetail p{
+    width: 90%;
+    color:#363636;
+    font-size:12px;
+    line-height: 32px;
+}
+
+.cardBox p{
+    text-align: center;
+    color:#ed3f3f;
+    font-size:24px;
+    padding:30px 0 16px;
+}
+.cardBox .card{
+    width: 335px;
+    height: 330px;
+}
+.adSummary{
+   line-height: 40px;
+    padding:30px 0;
+}
+.adSummary img{
+    display: inline-block;
+    margin-right:18px;
+}
+.serviceBox{
+    /*padding:0 0 0 170px;*/
+}
+.serviceBox li{
+    width: 25%;
+}
+.serviceBox img{
+    width: 142px;
+    height: 142px;
+    margin:0 auto;
+}
+.serviceBox h5{
+    text-align: center;
+    font-size:16px;
+    color:#eeb24a;
+    margin:20px 0;
+}
+.serviceBox p{
+    width: 78%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,235 @@
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.productTitle{
+    width: 1366px;
+    margin:48px auto 32px;
+    color:#363636;
+    font-size: 40px;
+}
+.produceBanner{
+    width:100%;
+    height:484px;
+    background: #e3eaf0;
+    position: relative;
+}
+.produceBannerImg{
+    width: 1366px;
+    height: 484px;
+    margin:0 auto;
+    position: relative;
+}
+.produceBannerImg img{
+    margin:0 auto;
+}
+.poc{
+    width: 1366px;
+    height: 80px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.bannerTitleDetail{
+    position: absolute;
+    left:45%;
+    top:44%;
+}
+.titleBox{
+    width: 262px;
+    margin:0 auto 30px;
+}
+.bannerTitleDetail .title48px{
+    text-align: center;
+    color:#fff;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.title28px{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-left:-300px;
+    color:#fff;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+}
+.bannerTitleDetail .dot{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    margin:24px 12px 0;
+}
+
+/*每个项目都有的slogan*/
+.sloganBox{
+    width: 520px;
+    margin:0 auto;
+}
+.sloganBox .block18c2ed{
+    width: 8px;
+    height: 24px;
+    margin-right: 18px;
+    background: #18c2ed;
+}
+.box18c2ed{
+    width:100%;
+    margin:50px auto 20px;
+}
+.sloganBox .color18c2ed{
+    color:#18c2ed;
+    font-size: 20px;
+}
+.sloganBox p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+/*每块的标题 中英文标题*/
+.subTitle{
+    padding:20px 0 30px;
+}
+.enSubTitle{
+    color:#18c2ed;
+    font-size:20px;
+    text-align: center;
+}
+.chSubTitle{
+    color:#363636;
+    font-size:20px;
+    text-align: center;
+}
+.subTitle p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top:20px;
+}
+.testBox{
+    width:100%;
+    height: 430px;
+    background: #e5e5e5;
+    margin-top:38px;
+}
+.testDetail ul{
+    width:53.5%;
+    margin:0 auto;
+}
+.testContent{
+   padding-bottom:28px;
+}
+.testContent .addMargin{
+    margin-right: 20px;
+}
+.testContent .testBg18ce2d{
+    width:148px;
+    height: 120px;
+    background: #18c2ed;
+}
+.testContent .testBg18ce2d img{
+    margin:27px auto 0;
+}
+.testContent .fontDetail{
+    width: 204px;
+    height: 120px;
+    background: #fff;
+    color:#363636;
+    font-size: 18px;
+    text-align: center;
+    line-height: 120px;
+}
+.adDetail {
+    width:85%;
+    margin:0 auto;
+}
+.adDetail li{
+    width: 298px;
+    height: 298px;
+    border-radius: 50%;
+    border:7px solid #424242;
+}
+.adDetail li.addMargin{
+    margin:0 110px;
+}
+.adDetail li img{
+    margin: 35px auto 0;
+}
+.adDetail li h6{
+    color:#363636;
+    font-size:16px;
+    text-align: center;
+    padding:18px 0 20px;
+}
+.adDetail li p{
+    color:#363636;
+    font-size:12px;
+    text-align: center;
+    line-height: 22px;
+}
+.adSummary{
+    padding-top:60px;
+}
+.adSummary p{
+    /*width:52%;*/
+    color:#363636;
+    font-size: 16px;
+    line-height: 38px;
+    margin-bottom:20px;
+}
+.adSummary2{
+    color:#363636;
+    font-size: 16px;
+    /*line-height: 38px;*/
+    margin-top:32px;
+}
+.showDanger{
+    width:53%;
+    margin: 0 auto;
+}
+.showDanger li{
+    width: 186px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color:#fff;
+    font-size:20px;
+}
+.showDanger li.addMargin{
+    margin:0 78px;
+}
+/*三种背景*/
+.bgBgf2872e{
+    background: #f2872e;
+}
+.bgBg18c2ed{
+    background: #18c2ed;
+}
+.bgBgf15151{
+    background: #f15151;
+}
+
+.signDetail{
+    width:41%;
+    margin:0 auto;
+}
+.signDetail p{
+    line-height: 40px;
+    color:#363636;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

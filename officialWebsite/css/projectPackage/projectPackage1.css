@@ -1,0 +1,179 @@
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.productTitle{
+    width: 1366px;
+    margin:48px auto 32px;
+    color:#363636;
+    font-size: 40px;
+}
+.produceBanner{
+    width:100%;
+    height:446px;
+    background: #000;
+}
+.produceBannerImg{
+    width: 1366px;
+    height: 446px;
+    margin:0 auto;
+    position: relative;
+}
+.bannerTitleDetail{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top:-92px;
+    margin-left:-320px;
+}
+.titleBox{
+    width: 262px;
+    margin:0 auto 30px;
+}
+.bannerTitleDetail .title48px{
+    text-align: center;
+    color:#fff;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.bannerTitleDetail .title28px{
+    width:100%;
+    color:#fff;
+    font-size: 28px;
+    text-align: center;
+}
+.bannerTitleDetail .dot{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    margin:24px 12px 0;
+}
+
+/*每个项目都有的slogan*/
+.sloganBox{
+    width: 760px;
+    margin:0 auto;
+}
+.sloganBox .block18c2ed{
+    width: 8px;
+    height: 24px;
+    margin-right: 18px;
+    background: #18c2ed;
+}
+.box18c2ed{
+    width:55%;
+    margin:50px auto 20px;
+}
+.sloganBox .color18c2ed{
+    color:#18c2ed;
+    font-size: 20px;
+}
+.sloganBox p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 52px;
+    text-align: center;
+}
+/*每块的标题 中英文标题*/
+.subTitle{
+    padding:38px 0 34px;
+}
+.enSubTitle{
+    color:#18c2ed;
+    font-size:20px;
+    text-align: center;
+}
+.chSubTitle{
+    color:#363636;
+    font-size:20px;
+    text-align: center;
+}
+.subTitle p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 42px;
+    margin:20px 0 50px;
+}
+.advantageBox li{
+    width: 238px;
+    margin:0 51px;
+    /*height: 240px;*/
+}
+.advantageBox li .frame{
+    padding-top:80px;
+    width: 238px;
+    height: 160px;
+    background: url("../../img/product/product1/adFrame.png") no-repeat;
+    /*background-size:50% ;*/
+}
+.advantageBox .frame img{
+    display: block;
+    margin: 0 0 20px 90px ;
+    width: 60px;
+    height: 60px;
+    transition:width 2s, height 2s;
+    -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+    -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+    -o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+.advantageBox .frame img:hover{
+    width: 60px;
+    height: 60px;
+    transform:rotate(360deg);
+    -moz-transform:rotate(360deg); /* Firefox 4 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -o-transform:rotate(360deg); /* Opera */
+}
+.advantageBox .frame .iconDetail{
+    color:#363636;
+    font-size:16px;
+    text-align: center;
+}
+.advDetailBox{
+    padding-left:-20px;
+}
+.advDetailP1,.advDetailP2{
+    text-align: center;
+    color:#363636;
+}
+.advDetailP1{
+    padding-top:5px;
+}
+.advDetailP2{
+    padding-top:16px;
+}
+.pro1Detail{
+    width:100%;
+    height: 236px;
+    margin-top:40px;
+    padding-top:24px;
+    background: #d8d8d8;
+}
+.pro1Detail p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

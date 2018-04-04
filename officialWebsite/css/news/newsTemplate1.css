@@ -1,0 +1,21 @@
+.news{
+    width: 1366px;
+    margin:0 auto;
+    padding-top:40px;
+}
+.title{
+    text-align: center;
+    font-size:36px;
+    color:#373737;
+}
+.date{
+    color:#373737;
+    font-size:14px;
+    text-align: right;
+    padding: 28px 300px 10px 0;
+}
+.newsContent p{
+    color:#373737;
+    font-size:16px;
+    line-height: 38px;
+}

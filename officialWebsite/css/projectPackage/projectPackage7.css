@@ -1,0 +1,215 @@
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.productTitle{
+    width: 1366px;
+    margin:48px auto 32px;
+    color:#363636;
+    font-size: 40px;
+}
+ .titParPos{
+    position: relative;
+    font-size: 40px;
+    padding-right:10px;
+}
+ .titChild{
+    position: absolute;
+    left:25px;
+    top:0;
+    font-size:20px;
+}
+.produceBanner{
+    width:100%;
+    height:484px;
+    background: #000;
+    position: relative;
+}
+.produceBannerImg{
+    width: 1366px;
+    height: 484px;
+    margin:0 auto;
+    position: relative;
+}
+.produceBannerImg img{
+    margin:0 auto;
+}
+.poc{
+    width: 936px;
+    height: 80px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left:50%;
+    margin-left: -468px;
+    bottom:0;
+}
+.bannerTitleDetail{
+    position: absolute;
+    left:18%;
+    top:60%;
+}
+.titleBox{
+    width: 262px;
+    margin:0 auto 30px;
+}
+.bannerTitleDetail .title48px{
+    text-align: center;
+    color:#fff;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+ .title28px{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-left:-300px;
+    color:#fff;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+}
+.bannerTitleDetail .dot{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    margin:24px 12px 0;
+}
+
+/*每个项目都有的slogan*/
+.sloganBox{
+    width: 725px;
+    margin:0 auto;
+}
+.sloganBox .block18c2ed{
+    width: 8px;
+    height: 24px;
+    margin-right: 18px;
+    background: #18c2ed;
+}
+.box18c2ed{
+    width:54%;
+    margin:50px auto 20px;
+}
+.sloganBox .color18c2ed{
+    color:#18c2ed;
+    font-size: 20px;
+}
+.sloganBox p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+/*每块的标题 中英文标题*/
+.subTitle{
+    padding:15px 0 20px;
+}
+.enSubTitle{
+    color:#18c2ed;
+    font-size:20px;
+    text-align: center;
+}
+.chSubTitle{
+    color:#363636;
+    font-size:20px;
+    text-align: center;
+}
+.subTitle p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top:20px;
+}
+.adContent{
+    width:100%;
+    height: 424px;
+    background: #e5e5e5;
+    margin-top:25px;
+}
+.adDetail ul{
+    width:89%;
+    margin:0 auto;
+}
+.adDetail li{
+    width: 194px;
+    height: 310px;
+    background: #fff;
+    margin-right: 60px;
+}
+.adDetail li.reduceMargin{
+    margin-right:0;
+}
+.adDetail li h5{
+    color:#18c2ed;
+    font-size: 16px;
+    text-align: center;
+    padding:20px 0 26px;
+}
+.adDetail li p{
+    color:#363636;
+    font-size:12px;
+    text-align: center;
+    line-height: 32px;
+}
+.iconBg18c2ed{
+    width: 82px;
+    height: 57px;
+    padding-top:25px;
+    background: #18c2ed;
+    border:4px solid #18c2ed;
+    border-radius: 50%;
+    margin:20px auto 0;
+}
+.iconBg18c2ed:hover{
+    background: #fff;
+    border:4px solid #18c2ed;
+}
+.iconBg18c2ed img{
+    display: block;
+    margin:0 auto;
+}
+.adSummary{
+    padding-top:10px;
+}
+.adSummary p{
+    /*width:52%;*/
+    color:#363636;
+    font-size: 16px;
+    line-height: 38px;
+    margin-bottom:20px;
+}
+.infectediPer{
+    width:25%;
+    margin:35px auto 20px;
+}
+.infectediPer li{
+    margin-bottom:14px;
+}
+.infectediPer em{
+    width: 24px;
+    height: 24px;
+    background: #18c2ed;
+    color:#fff;
+    line-height: 24px;
+    text-align: center;
+    margin-right:14px;
+}
+.infectediPer span{
+    color:#363636;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

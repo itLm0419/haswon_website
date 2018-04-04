@@ -1,0 +1,129 @@
+.hrBg{
+    width:100%;
+    height:482px;
+    background:#87c7e3;
+}
+.hrIcon{
+    position: relative;
+    width:830px;
+    height:467px;
+    margin:0 auto;
+    background: url(../img/talentRecruitment/hrBg.png) no-repeat;
+}
+.hrIcon .joinUsContent{
+    width:55%;
+    padding-top:210px;
+}
+.hrIcon h3{
+    /*text-align: right;*/
+    color:#fff;
+    font-size:36px;
+    line-height: 62px;
+}
+.hrIcon h4{
+    /*text-align: right;*/
+    color:#fff;
+    font-size:28px;
+    line-height: 62px;
+}
+.talentRecruitmentContnet{
+    padding:48px 100px 0 130px;
+    width: 1136px;
+    margin:0 auto;
+}
+.talentSort{
+    margin-bottom:96px;
+}
+.talentSort h5{
+    color:#18ceed;
+    font-size:20px;
+}
+.talentSort .needNumber{
+    color:#4a4a4a;
+    font-size:20px;
+}
+.talentSort .jobRes{
+    margin:20px 0 0 42px;
+    width:48%;
+}
+.talentSort .qualifications{
+    margin:20px 0 0 0;
+    width:40%;
+}
+.jobRes li,.qualifications li{
+    line-height: 34px;
+    color:#363636;
+    font-size:14px;
+}
+/*色块大小*/
+.titleColorBlock{
+    width: 12px;
+    height: 44px;
+    margin-right:30px;
+}
+
+/*色块颜色*/
+.orange{
+    background: #f2872e;
+}
+.green{
+    background:#00cb6e;
+}
+.blue{
+    background:#18c2ed;
+}
+.gray{
+    background:#bebebe;
+}
+.showMoreRecMsg{
+    width:714px;
+    height: 42px;
+    color:#18c2ed;
+    font-size:14px;
+    text-align: center;
+    line-height: 42px;
+    display: block;
+    background: #e8e8e8;
+    margin:-20px auto 16px;
+}
+.joinUsMsg{
+    padding-top:52px;
+    margin-left:40px;
+    border-top:1px solid #18c2ed;
+    width:1128px;
+}
+.joinUsMsg .joinChFont{
+    font-size:20px;
+    color:#373737;
+    margin-bottom:10px;
+}
+.joinUsMsg .joinEnFont{
+    font-size:16px;
+    color:#18c2ed;
+}
+.joinUsMsg .joinAddress li{
+    font-size:16px;
+    color:#4a4a4a;
+    line-height: 32px;
+}
+.moreRecDetailMsg{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

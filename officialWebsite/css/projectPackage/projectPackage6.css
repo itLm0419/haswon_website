@@ -1,0 +1,191 @@
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.productTitle{
+    width: 1366px;
+    margin:48px auto 32px;
+    color:#363636;
+    font-size: 40px;
+}
+.produceBanner{
+    width:100%;
+    height:413px;
+    background: #e8e8e8;
+    position: relative;
+}
+.produceBannerImg{
+    width: 1366px;
+    height: 389px;
+    margin:0 auto;
+    padding-top:24px;
+}
+.produceBannerImg li{
+    margin-right:20px;
+}
+.produceBannerImg li.reduceMargin{
+    margin:0;
+}
+.bannerTitleDetail{
+    width: 100%;
+    height: 72px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    /*background: #5c5c5c;*/
+    background: rgba(0,0,0,0.6);
+}
+.titleBox{
+    margin:2px 216px 0 90px;
+}
+.bannerTitleDetail .title48px{
+    text-align: right;
+    color:#fff;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.bannerTitleDetail .title28px{
+    color:#fff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 72px;
+}
+.bannerTitleDetail .dot{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    margin:24px 12px 0;
+}
+
+/*每个项目都有的slogan*/
+.sloganBox{
+    width: 744px;
+    margin:0 auto;
+}
+.sloganBox .block18c2ed{
+    width: 8px;
+    height: 24px;
+    margin-right: 18px;
+    background: #18c2ed;
+}
+.box18c2ed{
+    width:58%;
+    margin:50px auto 20px;
+}
+.sloganBox .color18c2ed{
+    color:#18c2ed;
+    font-size: 20px;
+}
+.sloganBox p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+/*每块的标题 中英文标题*/
+.subTitle{
+    padding:40px 0 20px;
+}
+.enSubTitle{
+    color:#18c2ed;
+    font-size:20px;
+    text-align: center;
+}
+.chSubTitle{
+    color:#363636;
+    font-size:20px;
+    text-align: center;
+}
+.subTitle p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top:20px;
+}
+/*TM重要性*/
+.tmImportance{
+    width:68%;
+    margin:20px auto 0;
+}
+.tmImportance div{
+    color:#363636;
+    font-size: 16px;
+    line-height: 38px;
+}
+.adContent{
+    width:100%;
+    height: 462px;
+    padding-top: 46px;
+    background: #e8e8e8;
+}
+.adDetail{
+    width:65%;
+    margin:0 auto;
+}
+.adDetail li{
+    width: 362px;
+    height: 184px;
+    margin:0 140px 52px 10px;
+    background: url('../../img/product/product6/frame.png');
+    position: relative;
+}
+.adDetail li.reduceMargin{
+    margin:0 0 52px 0;
+}
+.adDetail li img{
+    position: absolute;
+    left: 33px;
+    top:-24px;
+}
+.adDetail li h4{
+    text-align: center;
+    color:#363636;
+    font-size: 16px;
+    margin: 36px 0 10px;
+}
+.adDetail li p{
+    text-align: center;
+    color:#363636;
+    font-size: 12px;
+    /*margin: 36px 0 10px;*/
+    line-height: 32px;
+}
+.showPerTitle{
+    color:#363636;
+    font-size: 16px;
+    padding:32px 0 36px;
+    text-align: center;
+}
+.showPercentage{
+    width:62%;
+    margin:0 auto;
+}
+.showPercentage li{
+    margin-left:120px;
+}
+.showPercentage li img{
+    margin:0 0 20px 50px;
+}
+.showPercentage li p {
+    font-size: 18px;
+    color:#363636;
+    line-height: 28px;
+}
+.showPercentage li p span{
+    color:#d60808;
+    font-size: 18px;
+}
+.percSummary{
+    width:100%;
+    height: 58px;
+    background: #e8e8e8;
+    text-indent: 70px;
+    line-height: 58px;
+    color:#363636;
+    font-size: 16px;
+    margin-top:45px;
+}

@@ -1,0 +1,51 @@
+
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.produceBanner{
+    width:100%;
+    height:446px;
+}
+.produceBanner img{
+    width:100%;
+    height:100%;
+}
+.labTitle,.labEnTitle{
+    text-align: center;
+    color:#373737;
+}
+.labTitle{
+    width:118px;
+    margin:0 auto 5px;
+    font-size: 20px;
+    padding:42px 0 10px;
+    border-bottom:2px solid #18c2ed;
+}
+.labDetail h3{
+    text-align: center;
+    color:#363636;
+    font-size: 20px;
+    padding:45px 0 18px;
+}
+.labDetail h3.addPadding{
+   padding-top:72px;
+}
+.labDetail p{
+    text-align: center;
+    color:#363636;
+    font-size:14px;
+    line-height: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

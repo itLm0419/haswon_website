@@ -1,0 +1,285 @@
+.width1366px{
+    width: 1366px;
+    margin:0 auto;
+}
+.productTitle{
+    width: 1366px;
+    margin:48px auto 32px;
+    color:#363636;
+    font-size: 40px;
+}
+.produceBanner img{
+    width:100%;
+    height:446px;
+}
+
+/*每个项目都有的slogan*/
+.sloganBox{
+    width: 718px;
+    margin:0 auto;
+}
+.sloganBox .blocked3f3f{
+    width: 8px;
+    height: 24px;
+    margin-right: 18px;
+    background: #ed3f3f;
+}
+.boxed3f3f{
+    width:54%;
+    margin:50px auto 20px;
+}
+.sloganBox .colored3f3f{
+    color:#ed3f3f;
+    font-size: 20px;
+}
+.sloganBox p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+}
+/*每块的标题 中英文标题*/
+.subTitle{
+    padding:20px 0 30px;
+}
+.enSubTitle{
+    color:#ed3f3f;
+    font-size:20px;
+    text-align: center;
+}
+.chSubTitle{
+    color:#363636;
+    font-size:20px;
+    text-align: center;
+}
+.subTitle p{
+    color:#363636;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top:20px;
+}
+.adSummary{
+   line-height: 40px;
+    padding:30px 0;
+}
+.adSummary img{
+    display: inline-block;
+    margin-right:18px;
+}
+.package10Box{
+    width: 100%;
+    height: 446px;
+    margin-top:50px;
+    background: #e5e5e5;
+}
+.serviceBox{
+    width: 50%;
+}
+.bgBlockParent{
+    position: relative;
+    width: 64%;
+    height: 64px;
+    margin:0 auto;
+}
+.bgBlockParent p{
+    text-indent: 40px;
+    line-height: 50px;
+    font-size: 14px;
+}
+.bgBlockParent p span{
+    text-indent: 40px;
+    font-size: 18px;
+}
+.bgBlockIn,.bgBlockOut{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    position: absolute;
+    color:#fff;
+    line-height: 24px;
+}
+.bgBlockIn{
+    left:0;
+    top:0;
+}
+.bgBlockOut{
+    left:12px;
+    top:12px;
+}
+
+.dashedBg{
+    width: 1018px;
+    border:1px dashed #ed3f3f;
+    position: relative;
+    margin-top:15px;
+}
+.dashedRedBg{
+    width: 102px;
+    height: 34px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-47px;
+    margin-top:-21px;
+    background: #ed3f3f;
+}
+.companyName{
+    width: 102px;
+    height: 34px;
+    background: #ddd;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-51px;
+    margin-top:-17px;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+}
+.advantageBox{
+    width: 1018px;
+    padding:58px 0;
+}
+.advantageBox2{
+    width: 560px;
+    padding:58px 0;
+}
+.advantageBox li{
+    width: 25%;
+}
+.advantageBox2 li{
+    width:50%;
+}
+.advantageBox li img,.advantageBox2 li img{
+    width: 66px;
+    height: 66px;
+    margin:0 auto;
+}
+.advantageBox li h5,.advantageBox2 li h5{
+    color:#393939;
+    font-size: 16px;
+    text-align: center;
+    line-height: 42px;
+}
+.proportionTitle{
+    color:#ed3f3f;
+    font-size: 20px;
+    margin-bottom:6px;
+}
+.proRed{
+    width: 200px;
+    height: 6px;
+    background: #ed3f3f;
+}
+.proGray{
+    width: 152px;
+    height: 6px;
+    background: #e8e8e8;
+}
+.proChart{
+    width: 78px;
+    height:226px;
+    margin-top: 53px;
+}
+.proFontDetail{
+    margin:150px 0 0 54px;
+}
+.proFontDetail p{
+     line-height:42px;
+     font-size: 16px;
+     color:#393939;
+}
+.proportionL{
+    width:50%;
+    margin-left:30px;
+}
+.proportionR{
+    width:40%;
+    margin:85px 0 0 70px;
+}
+.factDetail .font38px{
+    font-size:38px;
+    padding-right:2px;
+}
+.factDetail dt,.factDetail dd{
+    color:#393939;
+    font-size: 16px;
+}
+.factDetail dt{
+    margin-top: 38px;
+}
+.factDetail dd{
+    margin-left: 28px;
+}
+.factDetail span{
+    color:#ed3f3f;
+    font-size: 16px;
+    padding-right:6px;
+}
+.selectionBox,.selectionBox2{
+    margin:0 auto;
+    width: 1150px;
+}
+.selectionBox li{
+    width: 354px;
+    height: 152px;
+    margin-bottom:30px;
+}
+
+.selectionBox2 li{
+    width: 258px;
+    height: 200px;
+    margin-right:33px;
+}
+.selectionBox2 li.removeMargin{
+    margin-right:0;
+}
+.bordered3f3f{
+    border:2px solid #ed3f3f;
+}
+.bged3f3f{
+    background: #ed3f3f;
+}
+.border7a931a{
+    border:2px solid #7a931a;
+}
+.bg7a931a{
+    background: #7a931a;
+}
+
+.bordere29830{
+    border:2px solid #e29830;
+}
+.bge29830{
+    background: #e29830;
+}
+.bordere4fabbd{
+    border:2px solid #4fabbd;
+}
+.bg4fabbd{
+    background: #4fabbd;
+}
+.selectionTitle{
+    height: 44px;
+    text-indent: 24px;
+    color:#fff;
+    font-size: 16px;
+    line-height: 44px;
+}
+.selectionContent{
+    padding:20px 14px 0 10px;
+}
+.selectionContent p{
+    line-height: 38px;
+    color:#393939;
+    font-size: 16px;
+}
+.factDetail dt{
+    margin-bottom:10px;
+}
+.factDetail dd{
+    line-height: 38px;
+}
+
+
+

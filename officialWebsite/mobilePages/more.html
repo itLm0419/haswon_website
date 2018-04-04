@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华晟移动端</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0，maximum-scale=1.0,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/mobile/more.css">
+    <script src="../js/appBase.js"> </script>
+    <script src="../js/jquery-1.7.2.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<header class="pc-header">
+    <div class="clearfix">
+        <img src="../mobileImg/more/revealNavMore.png" alt="nav" class="fl">
+        <span class="fl" style="padding:0.6rem 0 0 0.1rem;font-size:0.8rem;color:#2c2c2c;">导航</span>
+        <a href="../appHwasonIndex.html" class="fr header-more">
+            <img src="../mobileImg/more/revealDelete.png" alt="delete" >
+        </a>
+        <span class="fr" style="color:#2c2c2c;padding:0.85rem 0.9rem 0 0;">400-894-5099</span>
+        <img src="../mobileImg/more/phoneBlue.png" alt="phone" class="fr" style="padding:0.9rem 0.3rem 0 0;">
+        <span></span>
+    </div>
+</header>
+<!--list content-->
+<section class="list-content">
+    <ol>
+    <li class="list-content-child">
+        <a href="../appHwasonIndex.html">
+            <span>首页</span>
+        </a>
+    </li>
+    <li class="list-content-child list-product-project">
+        <a href="javascript:;" class="fl productProject">
+            <span>产品项目</span>
+            <img src="../mobileImg/more/arrowHide.png" alt="arrow" class="fr" style="padding:0.7rem 0.8rem 0 0 ">
+        </a>
+    </li>
+    </ol>
+    <ul class="showItems">
+        <li>
+            <a href="javascript:;">FHR家庭健康计划</a>
+        </li>
+        <li>
+            <a href="javascript:;">HC健康360&deg;</a>
+        </li>
+        <li>
+            <a href="javascript:;">HCG健康360&deg;</a>
+        </li>
+        <li>
+            <a href="javascript:;">CCVD心脑血管疾病超早期检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">肺部疾病专项检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">胃部疾病检测 - C14呼气试验检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">TM红肿瘤标志物专项检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">TP53抑癌基因突变检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">免疫系统检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">儿童天赋基因检测</a>
+        </li>
+        <li>
+            <a href="javascript:;">甲状腺疾病专项检测</a>
+        </li>
+        <li style="border:0;">
+            <a href="javascript:;">食物不耐受FI检测</a>
+        </li>
+    </ul>
+    <ol>
+        <li class="list-content-child">
+            <a href="javascript:;">
+                <span>新闻资讯</span>
+                <img src="../mobileImg/more/arrowHide.png" alt="arrow" class="fr" style="padding:0.7rem 0.8rem 0 0 ">
+            </a>
+        </li>
+    </ol>
+    <ol>
+        <li class="list-content-child" style="border:0;">
+            <a href="javascript:;">
+                <span>关于实验室</span>
+                <img src="../mobileImg/more/arrowHide.png" alt="arrow" class="fr" style="padding:0.7rem 0.8rem 0 0 ">
+            </a>
+
+        </li>
+    </ol>
+</section>
+<script>
+    $(function(){
+        var tag = true;
+        $('.productProject').click(function(){
+            if(tag){
+                $('.showItems').show();
+                $('.list-product-project').css({border:"none"});
+                tag=!tag;
+            }else{
+                $('.showItems').hide();
+                $('.list-product-project').css({border:"1px solid #fff"});
+                tag=!tag;
+            }
+
+        })
+    })
+
+</script>
+</body>
+
+</html>
